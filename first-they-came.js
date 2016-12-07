@@ -7,4 +7,8 @@
 
   });
 
+  $('textarea').click(function() {
+    $('textarea').select();
+  });
+
 })();

@@ -3,6 +3,21 @@ body {
   font-family: Georgia, serif;
 }
 
+.circle {
+  color: #888;
+  background: white;
+  border: 2px solid #888;
+  border-radius: 100px;
+  padding: 10px 11px;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 1.8em;
+}
+
+.circle:hover {
+  background: #ddd;
+}
+
 img {
   max-width: 100%;
 }
@@ -13,7 +28,7 @@ img {
   text-align: center;
 }
 
-h1 {
+h2, h1 {
   font-style: italic;
 }
 

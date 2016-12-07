@@ -1,7 +1,38 @@
+body {
+  font-size: 1.7em;
+  font-family: Georgia, serif;
+}
+
+img {
+  max-width: 100%;
+}
 
 #content {
   padding: 20px;
   padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+label {
+  font-weight: normal;
+}
+
+option {
+  font-size: 2em;
+}
+
+textarea {
+}
+
+blockquote#quote {
+  font-style: italic;
+  font-size: 1.4em;
+  border: none;
+  text-align: center;
 }
 
 .profile-picture {
